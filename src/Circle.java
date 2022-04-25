@@ -47,7 +47,7 @@ public class Circle implements Shape{
     @java.lang.Override
     public double area() {
         return pi * radius * radius;
-    }
+    } // or pi * Math.pow(radius, 2);
 
 
 
